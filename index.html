@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Gerasimos Iordanis - Biologist & Bioinformatics Specialist">
+    <title>Gerasimos Iordanis - Biologist & Bioinformatics Specialist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Gerasimos Iordanis, BSc</h1>
+            <p>Biologist | Bioinformatics Specialist</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="section-content">
+                <p>As a biologist specializing in bioinformatics, I bring a unique blend of biological knowledge and computational skills to scientific research. My expertise in data analysis, statistical modeling, and programming enables me to tackle complex biological problems efficiently.</p>
+                <p>I'm passionate about leveraging artificial intelligence and machine learning in the fields of genetics and neuroscience. My strong foundation in statistics and data visualization allows me to extract meaningful insights from large-scale biological datasets.</p>
+                <p>With a keen interest in cutting-edge technologies and a solid grounding in biological sciences, I'm well-equipped to contribute to innovative research projects and drive scientific discoveries.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="section-content">
+                <div class="skills-container">
+                    <div class="skill" data-skill="R">
+                        <i class="fas fa-code"></i>
+                        <span>R Language</span>
+                        <p>Data Analysis</p>
+                    </div>
+                    <div class="skill" data-skill="Python">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                        <p>Scripting & Analysis</p>
+                    </div>
+                    <div class="skill" data-skill="Video">
+                        <i class="fas fa-video"></i>
+                        <span>Video Editing</span>
+                        <p>Content Creation</p>
+                    </div>
+                    <div class="skill" data-skill="Social">
+                        <i class="fas fa-share-alt"></i>
+                        <span>Social Media</span>
+                        <p>Management</p>
+                    </div>
+                    <div class="skill" data-skill="AI">
+                        <i class="fas fa-robot"></i>
+                        <span>Prompt Engineering</span>
+                        <p>for LLMs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="section-content">
+                <div class="project-grid">
+                    <div class="project">
+                        <h3>AI-Assisted Research</h3>
+                        <p>Implemented LLM-based tools to accelerate literature review processes in biological research.</p>
+                    </div>
+                    <div class="project">
+                        <h3>Content Creation & Social Media Management</h3>
+                        <p>Managed social media accounts for well-known content creators in Greece. Created captivating short documentaries on various topics, showcasing extensive video editing skills.</p>
+                    </div>
+                    <div class="project">
+                        <h3>OCD Exposure Therapy App</h3>
+                        <p>Developed a mobile application for exposure therapy targeting Obsessive-Compulsive Disorder (OCD). Available on GitHub.</p>
+                    </div>
+                    <div class="project">
+                        <h3>Minimal Budget Tracking App</h3>
+                        <p>Created a simple, user-friendly application for personal budget tracking. Open-source and available on GitHub.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="section-content">
+                <form id="contact-form" action="https://formspree.io/f/xdknwlzb" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div id="social-links">
+                <a href="https://github.com/GerasimosIord" target="_blank" aria-label="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/gerasimos-iordanis" target="_blank" aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/ger_iordanis" target="_blank" aria-label="Twitter Profile">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <p>&copy; 2024 Gerasimos Iordanis. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="theme-toggle">
+        <i class="fas fa-sun"></i>
+    </div>
+
+    <button id="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
